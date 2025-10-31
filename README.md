@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🌐 Mis Prácticas de Clase</title>
   <style>
-    /* Fuentes y reset */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: 'Poppins', sans-serif;
@@ -32,7 +27,6 @@
     header h1 {
       font-size: 3em;
       margin-bottom: 10px;
-      letter-spacing: 1px;
       animation: fadeDown 1.2s ease;
     }
 
@@ -68,7 +62,7 @@
 
     .card:hover {
       transform: translateY(-10px) scale(1.05);
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.25);
     }
 
     .card img {
@@ -101,7 +95,6 @@
       position: relative;
     }
 
-    /* Fondo animado */
     #bubbles {
       position: fixed;
       top: 0;
@@ -122,14 +115,8 @@
     }
 
     @keyframes rise {
-      0% {
-        transform: translateY(0) scale(1);
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(-1200px) scale(1.5);
-        opacity: 0;
-      }
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-1200px) scale(1.5); opacity: 0; }
     }
 
     @keyframes fadeDown {
@@ -179,7 +166,6 @@
   </footer>
 
   <script>
-    // Generador de burbujas
     const bubbleContainer = document.getElementById('bubbles');
     const numBubbles = 30;
 
