@@ -1,3 +1,26 @@
-div {
-  border: solid red 10px;
+html {
+  justify-items: center;
+}
+body {
+  background-color: rgb(204, 208, 208);
+  height: 100vh;
+  width: 50vw;
+  margin-top: 3vh;
+  border-radius: 50px;
+  border: solid greenyellow 10px;
+  padding: 30px;
+}
+.separador {
+  border: solid greenyellow 5px;
+  border-radius: 50px;
+}
+h2 {
+  text-decoration: underline;
+}
+a {
+  color: rgb(0, 0, 0);
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }

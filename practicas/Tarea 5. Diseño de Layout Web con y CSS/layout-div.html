@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi página con DIVS</title>
+        <style>
+            #titulo{
+                text-align: center;
+                background-color: rgb(65, 64, 64);
+                color: white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 50px;
+                width: 100vw;
+                height: 15vh;
+                display: grid;
+                place-items: center;
+            }
+            body{
+                margin: 0;
+            }
+            #contenedores{
+                background-color: rgb(102, 102, 102);
+                padding-left: 300px;
+                padding-right: 300px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                display: flex;
+            }
+            .caja {
+                flex: 1;
+                margin: 0 5px;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                border-radius: 8px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 30px;
+            }
+            #cuerpo-principal{
+                padding-left: 300px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size:50px;
+            }
+            .contenedor {
+                display: flex;
+                justify-content: space-between;
+                background: white;
+                padding: 20px;
+                margin-left: 15vw;
+                margin-right: 17vw;
+                margin-top: 10vh;
+                margin-bottom: 10vh;
+            }
+
+            .contenido {
+                flex: 3; 
+                margin-right: 0px;
+            }
+            .sidebar {
+                flex: 1;
+                background: #f2f2f2;
+                padding: 15px;
+            }
+            #pie-de-pagina{
+                text-align: center;
+                background-color: rgb(65, 64, 64);
+                color: white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px;
+                width: 100vw;
+                height: 15vh;
+                display: grid;
+                place-items: center;
+            }   
+        </style>
+    </head>
+    <body>
+        <div id="titulo">Mi página con DIVs</div>
+        <div id="contenedores">
+            <div class="caja" style="margin-left: 0px;">Navegación</div>
+            <div class="caja">Acerca</div>
+            <div class="caja">Acercs</div>
+            <div class="caja">Servicios</div>
+            <div class="caja" style="margin-right: 0px;">Contacto</div>
+        </div>
+        <div class="contenedor">
+  <div class="contenido">
+    <h2>Contenido principal</h2>
+    <p>Este es el contenido principal de la página. Debe ocupar un espacio considerable y estar a la izquierda.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in odio quis enim accumsan facilisis. Sed euismod...</p>
+  </div>
+
+  <div class="sidebar">
+    <h3>Otras opciones</h3>
+        <ul>
+            <li><a href="#">Ir a página 1</a></li>
+            <li><a href="#">Ir a página 2</a></li>
+            <li><a href="#">Ir a página 3</a></li>
+            <li><a href="#">Ir a página 4</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="pie-de-pagina">2025 Práctica de DIVs. Todos los derechos reservados.</div>
+    </body>
+</html>
